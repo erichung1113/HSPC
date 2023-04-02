@@ -42,14 +42,15 @@ int main() {
         string password = genPass();
         string teamname;
         getline(TeamnameFile,teamname);
-        
+
         PasswordFile << password << '\n';
-        SettingFile << "  - username: \"team" << i << "\"\n";
+        SettingFile << "  - username: \"team" << setw(3) << setfill('0') << i << "\"\n";
         SettingFile << "    password: \"" << password << "\"\n";
         SettingFile << "    first_name: \"" << teamname << "\"\n";
     }
     TeamnameFile.close();
     PasswordFile.close();
     SettingFile.close();
-
 }
+
+// g++ gen.cpp && ./a.out && rm a.out
