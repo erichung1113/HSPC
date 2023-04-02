@@ -1,7 +1,7 @@
 name: "HSPC"
 description: "HSPC Contest"
 token_mode: disabled
-timezone: +8
+timezone: "+8"
 tasks:
   - "pA"
   - "pB"
