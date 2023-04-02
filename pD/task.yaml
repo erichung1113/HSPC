@@ -1,6 +1,6 @@
 name: pD
 title: 身份調查
-time_limit: 4
+time_limit: 2.5
 memory_limit: 256
 n_input: 150
 token_mode: disabled
