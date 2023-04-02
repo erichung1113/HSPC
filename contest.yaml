@@ -10,3 +10,6 @@ tasks:
   - "Task6"
   - "Task7"
   - "Task8"
+users:
+  - username: "user"
+    password: "a69376ebd481fe4dd5cf5d3f403cf9e2"
