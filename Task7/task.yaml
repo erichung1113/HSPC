@@ -1,6 +1,6 @@
 name: Task7
 title: 小業教授的冷泡茶
-time_limit: 1
+time_limit: 3
 memory_limit: 256
 n_input: 174
 token_mode: disabled

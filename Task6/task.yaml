@@ -1,6 +1,6 @@
 name: Task6
 title: 身份調查
-time_limit: 1
+time_limit: 4
 memory_limit: 256
 n_input: 150
 token_mode: disabled

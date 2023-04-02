@@ -1,6 +1,6 @@
 name: Task3
 title: 大富翁
-time_limit: 1
+time_limit: 3
 memory_limit: 256
 n_input: 128
 token_mode: disabled
