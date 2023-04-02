@@ -41,7 +41,8 @@ int main() {
     for (int i = 1; i <= 200; i++) {
         string password = genPass();
         string teamname;
-        TeamnameFile >> teamname;
+        getline(TeamnameFile,teamname);
+        
         PasswordFile << password << '\n';
         SettingFile << "  - username: \"team" << i << "\"\n";
         SettingFile << "    password: \"" << password << "\"\n";
