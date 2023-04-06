@@ -1,5 +1,5 @@
 name: "HSPC"
-description: "HSPC Contest"
+description: "國立成功大學暑期高中生程式設計邀請賽初賽"
 token_mode: disabled
 timezone: "+8"
 tasks:
